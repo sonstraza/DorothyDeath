@@ -1,0 +1,18 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/_sprites/froth.tpsheet
+- Assets/_sprites/healthOrbSpriteSheet.tpsheet
+- Assets/_sprites/soulOrbSpriteSheet.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/_sprites/froth.png
+- Assets/_sprites/healthOrbSpriteSheet.png
+- Assets/_sprites/soulOrbSpriteSheet.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0
