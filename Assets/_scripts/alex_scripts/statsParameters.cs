@@ -54,10 +54,11 @@ public class statsParameters : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (playerScript.attacking)
+        if (playerScript.attacking)// && playPlayerAttack == true)
         {
             playerAttackSource.PlayOneShot(playerAttackClip, 1f);
             energy -= 2f;
+            //playerAttackPlaying = true;
         }
 
         totalEnergy = energy / maxEnergy;
@@ -70,7 +71,7 @@ public class statsParameters : MonoBehaviour {
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "enemyDamage")
+        if (collision.gameObject.tag == "enemyDamage")// && damageAudioPlaying == false)
         {
             currentHealth -= 2f;
             playerDamageSource.PlayOneShot(playerDamageClip, 1F); //audio for attack (0-1F for volume)
@@ -79,7 +80,11 @@ public class statsParameters : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(0))
         {
-            // energy -= 1.0f;
+            energy -= 1.0f;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            energy -= 5f;
         }
     }
     private void OnTriggerExit(Collider other)

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 135970332196879272}
   m_Layer: 0
   m_Name: FireDOT
-  m_TagString: damage
+  m_TagString: enemyDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

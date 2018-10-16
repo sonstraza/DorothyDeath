@@ -70,6 +70,8 @@
     <Compile Include="Assets\_scripts\alex_scripts\energyOrb.cs" />
     <Compile Include="Assets\_scripts\alex_scripts\gameOver.cs" />
     <Compile Include="Assets\_scripts\alex_scripts\healthOrb.cs" />
+    <Compile Include="Assets\_scripts\alex_scripts\instructionContinue.cs" />
+    <Compile Include="Assets\_scripts\alex_scripts\loadButton.cs" />
     <Compile Include="Assets\_scripts\alex_scripts\statsParameters.cs" />
     <Compile Include="Assets\_scripts\DestroyOutOfBounds.cs" />
     <Compile Include="Assets\_scripts\mark_scripts\CameraScript.cs" />

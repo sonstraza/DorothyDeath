@@ -14,6 +14,9 @@ TagManager:
   - lavaWhip
   - enemyDamage
   - Bounds
+  - MainMenuStartButton
+  - InstructionContinueButton
+  - QuitButton
   layers:
   - Default
   - TransparentFX
